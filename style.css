@@ -58,6 +58,19 @@ a:hover {
 	color: var(--color-primary);
 }
 
+.container {
+	width: var(--container-width-lg);
+	margin: 0 auto;
+	max-width: 2160px;
+}
+
+img {
+	display: block;
+	object-fit: cover;
+	width: 100%;
+}
+
+/* ================= nav ================= */
 
 
 
