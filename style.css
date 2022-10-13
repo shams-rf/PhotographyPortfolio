@@ -98,7 +98,6 @@ nav {
 }
 
 /* Only needed on tablets & phones */
-
 .nav__toggle-btn {
 	display: none;
 }
@@ -144,8 +143,8 @@ header {
 
 .header__container {
 	display: grid;
-	grid-template-columns: 42% 52%;
-	gap: 6%;
+	grid-template-columns: 43% 53%;
+	gap: 4%;
 	margin-top: 10rem;
 	position: relative;
 }
@@ -206,6 +205,17 @@ header {
 .header__tag {
 	color: var(--color-primary-variant);
 }
+
+.header__right p {
+	margin-top: 2rem;
+	width: 85%;
+}
+
+/* Only show on tablets & phones */
+.header__btn-md {
+	display: none;
+}
+
 
 
 
