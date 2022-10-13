@@ -70,7 +70,7 @@ img {
 	width: 100%;
 }
 
-/* ================= nav ================= */
+/* ================= NAV ================= */
 
 nav {
 	height: 5rem;
@@ -81,6 +81,13 @@ nav {
 	top: 0;
 	left: 0;
 	z-index: 99;
+}
+
+/* Nav class on scroll using JavaScript */
+.window-scrolled {
+	background: var(--color-bg-2);
+	border-bottom: 0.2rem solid var(--color-bg-3);
+	box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.3);
 }
 
 .nav__container {
@@ -123,6 +130,50 @@ nav {
 .nav__socials a:hover {
 	box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.4);
 }
+
+/* ================= HEADER ================= */
+
+header {
+	width: 100vw;
+	height: 100vh;
+	position: relative;
+	top: 0;
+	background: linear-gradient(var(--color-bg-3), var(--color-bg-1));
+	overflow: hidden;
+}
+
+.header__container {
+	display: grid;
+	grid-template-columns: 40% 50%;
+	gap: 10%;
+	margin-top: 10rem;
+	position: relative;
+}
+
+.header__img-bg {
+	background: var(--color-bg-4);
+	height: 22rem;
+	width: 16rem;
+	position: absolute;
+}
+
+.header__img-lg {
+	width: 29rem;
+	position: relative;
+	top: 1rem;
+	left: 1rem;
+	filter: saturate(0) brightness(0.3);
+}
+
+.header__img-sm {
+	width: 28rem;
+	height: 28rem;
+	overflow: hidden;
+	position: absolute;
+	left: 6rem;
+	top: 6rem;
+}
+
 
 
 
