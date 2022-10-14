@@ -670,6 +670,21 @@ footer {
 	.about__right p {
 		margin-bottom: 1rem;
 	}
+
+	/* ================= GALLERY ================= */
+	#gallery {
+		margin-top: 8rem;
+	}
+
+	.gallery__container p {
+		width: 100%;
+		margin-top: 2rem;
+	}
+
+	.swiper-wrapper {
+		margin-top: 4rem;
+		height: fit-content;
+	}
 }
 
 
