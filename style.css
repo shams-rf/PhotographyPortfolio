@@ -644,7 +644,32 @@ footer {
 	}
 
 	/* ================= ABOUT ================= */
-	
+	.about__container {
+		grid-template-columns: 40% 54%;
+		gap: 6%;
+	}
+
+	.about__image-bg, .about__image-sm {
+		display: none;
+	}
+
+	.about__image-lg {
+		left: 0;
+		top: 0;
+		filter: saturate(1) brightness(1);
+	}
+
+	.about__image:hover .about__image-lg {
+		border: none;
+	}
+
+	.about__right {
+		margin: 0;
+	}
+
+	.about__right p {
+		margin-bottom: 1rem;
+	}
 }
 
 
