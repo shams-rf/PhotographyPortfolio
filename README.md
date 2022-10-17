@@ -9,3 +9,5 @@ The website consists of 4 sections
 - **About**: This section contains an image of me and a short description about myself
 - **Gallery**: This section consists of a slideshow displaying multiple photos that users can scroll through
 - **Collection**: The final section contains photos from my most recent photoshoot
+
+## Hosting
