@@ -793,7 +793,7 @@ footer {
 		margin-top: 1rem;
 	}
 
-	/*.exhibitions__gallery {
+	.exhibitions__gallery {
 		display: block;
 	}
 
@@ -801,7 +801,7 @@ footer {
 		width: 100%;
 		height: fit-content;
 		margin-bottom: 1rem;
-	}*/
+	}
 
 	/* ================= FOOTER ================= */
 	.footer__head {
